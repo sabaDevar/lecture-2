@@ -4,18 +4,51 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Devwork</title>
+<style>
+ /* Resize images */
+ .small {
+     max-width: 120px; /* Set a maximum width for the images */
+     height: auto;     /* Maintain aspect ratio */
+     vertical-align: middle; /* Align the image vertically with the text */
+     margin-right: 10px; /* Add some space to the right of each image */
+ }
+
+/* Align links and images in a horizontal row */
+ a {
+     text-decoration: none; /* Remove underlines from links */
+     display: inline-flex;  /* Make links and images appear inline */
+     align-items: center;   /* Vertically center images with links */
+     gap: 10px;             /* Add some space between image and text */
+     margin-right: 20px;    /* Space between each link */
+ }
+
+ /* Style the title */
+ h1 {
+     text-align: center;
+     margin-bottom: 20px;
+ }
+
+/* Style the paragraph containing links */
+p {
+        text-align: center;
+ }
+</style>
 </head>
 <body>
     <h1 title="sabaDev">Hello world</h1>
-<p title="sabaDev">
-    <a href="https://www.google.com/" target="_blank">Go to google.com</a>
-    <a href="https://www.facebook.com/" target="_blank">Go to facebook.com</a>
-    <a href="https://www.youtube.com/" target="_blank">Go to youtube.com</a>
-</p>
-
-
-<img src="./My images/mypng.webp" alt="wallpaper" />
-
-
+    <p title="sabaDev">
+        <a href="https://www.google.com/" target="_blank">
+            <img src="./My images/google logo1.webp" alt="Google logo" class="small" />
+            Go to google.com
+        </a>
+        <a href="https://www.facebook.com/" target="_blank">
+            <img src="./My images/Facebook_Logo_2023.png" alt="Facebook logo" class="small" />
+            Go to facebook.com
+        </a>
+        <a href="https://www.youtube.com/" target="_blank">
+            <img src="./My images/Logo_of_YouTube.png" alt="YouTube logo" class="small" />
+            Go to youtube.com
+        </a>
+    </p>
 </body>
-</html>
+</html> 
