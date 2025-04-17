@@ -1,0 +1,100 @@
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to top right, #1e1f28, #4b4e64); /* Moonlit gradient, darker hues */
+    color: #e0e0e0; /* Soft light text for readability */
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-attachment: fixed;
+  }
+  
+  #main-container {
+    width: 100%;
+    max-width: 800px;
+    margin: 30px auto;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.1); /* Slight glow on container */
+    border-radius: 12px;
+    box-shadow: 0 0 40px rgba(255, 255, 255, 0.2); /* Enhanced glow effect */
+  }
+  
+  h1, h2 {
+    text-align: center;
+    color: #f5f5f5;
+    text-shadow: 0 0 5px #fff, 0 0 10px rgba(255, 255, 255, 0.6); /* Glow effect on titles */
+  }
+  
+  .profile-card {
+    margin-bottom: 20px;
+    background-color: rgba(255, 255, 255, 0.2); /* Slight moonlit background */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.3); /* Soft shadow for profile box */
+  }
+  
+  .avatar {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 15px;
+  }
+  
+  .avatar img {
+    width: 180px;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 4px solid rgba(255, 255, 255, 0.3); /* Glow effect around profile image */
+    box-shadow: 0 0 15px rgba(255, 255, 255, 0.2); /* Moonlit glow effect */
+  }
+  
+  .profile-info {
+    text-align: center;
+  }
+  
+  .username {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  .email {
+    font-size: 16px;
+    color: #333; /* Darker tone for the email (like black sea) */
+  }
+  
+  .section {
+    margin-bottom: 40px;
+  }
+  
+  .box {
+    background-color: rgba(255, 255, 255, 0.2); /* Moonlit, soft background for skill boxes */
+    padding: 20px;
+    margin: 10px 0;
+    border-radius: 12px;
+    box-shadow: 0 0 15px rgba(255, 255, 255, 0.25); /* Glowing effect for the skills and language box */
+  }
+  
+  ul {
+    padding-left: 20px;
+  }
+  
+  .about-me {
+    text-align: center;
+  }
+  
+  .about-me-title {
+    text-decoration: none;
+    font-size: 18px;
+    color: #4CAF50;
+    transition: color 0.3s;
+    text-shadow: 0 0 8px #fff, 0 0 15px rgba(255, 255, 255, 0.6); /* Soft glow on the link */
+  }
+  
+  .about-me-title:hover {
+    color: #66BB6A; /* Glow when hovered */
+    text-shadow: 0 0 10px rgba(255, 255, 255, 0.9); /* More glowing on hover */
+  }
+  
